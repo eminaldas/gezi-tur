@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldasland | Avrupa</title>
+    <link rel="icon" type="image/x-icon" href="/resimler/Yeni klasör/avianex.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/2.Avrupa.css">
+</head>
+
+<body>
+    <div id="progress">
+        <span id="progress-value"><i class="fa-solid fa-chevron-up"></i></span>
+    </div>
+    <div class="body">
+        <div class="container">
+            <header class="nav">
+                <div class="navbar">
+                    <div class="navbar-logo"><a href="http://127.0.0.1:3000" class="logo-menu"><i
+                                class="fa-brands fa-avianex fa-2xl" title="AldasLand"></i></a></div>
+                    <div class="navbar-menu">
+                        <ul class="navigation">
+                            <li class="nav-text"><a href="http://127.0.0.1:3000" class="menu-item">Anasayfa</a></li>
+
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">Ülkeler</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="drop">
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/avrupa"
+                                            class="dropdown-text">Avrupa</a></li>
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/asya"
+                                            class="dropdown-text">Asya</a></li>
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/afrika"
+                                            class="dropdown-text">Afrika</a></li>
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/amerika"
+                                            class="dropdown-text">Amerika</a></li>
+
+                                </ul>
+                            </div>
+
+                            <li class="nav-text"><a href="http://127.0.0.1:3000/continents"
+                                    class="menu-item">Kıtalar</a></li>
+                            <li class="nav-text"><a href="http://127.0.0.1:3000/GeziTurSign" class="menu-item">Kayıt
+                                    ol</a></li>
+
+
+                        </ul>
+
+                    </div>
+                    <div class="navbar-login">
+                        <a href="http://127.0.0.1:3000/GeziturLog" blank="_leave" class="login"><i
+                                class="fa-solid fa-user-tie fa-2xl" title="Log-in"></i></a>
+
+                    </div>
+                </div>
+                <img src="/adobe/header1.png" alt="">
+            </header>
+            <!--main kısmı-->
+
+
+            <main class="main">
+
+
+
+                <div class="main-container">
+
+                    <div class="main-search">
+
+                        <form action="https://www.google.com/search" method="get" class="search-form">
+                            <div class="google-search">
+                                <script async src="https://cse.google.com/cse.js?cx=51e502db8d6ef437e">
+                                </script>
+                                <div class="gcse-searchbox-only"></div>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                    <div class="main-menu">
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Türkiye</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>Türkiye veya resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Anadolu'da,
+                                küçük bir bölümü ise Balkan Yarımadası'nın güneydoğu uzantısı olan Trakya'da yer alan
+                                kıtalararası bir ülkedir. Kuzeybatıda Bulgaristan, batıda Yunanistan, kuzeydoğuda
+                                Gürcistan, doğuda Ermenistan, İran ve Azerbaycan'ın eksklav toprağı Nahçıvan,
+                                güneydoğuda ise Irak ve Suriye ile komşudur. Güneyini Kıbrıs Adası ve Akdeniz, batısını
+                                Ege Denizi ve kuzeyini Karadeniz çevreler. Marmara Denizi ise İstanbul Boğazı ve
+                                Çanakkale Boğazı ile birlikte Anadolu'yu Trakya'dan, yani Asya'yı Avrupa'dan ayırır.
+                                Türkiye, Avrupa ve Asya kıtalarının kavşak noktasında yer alması nedeniyle önemli bir
+                                jeostratejik güce sahiptir.</p>
+                        </div>
+
+
+                        <div class="menu-card">
+                            <a href="http://127.0.0.1:3000/continents/avrupa/istanbul">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/türkiye/İstanbul/<%= sehirler[0].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[0].name %>
+                                        </h2>
+                                        <p>İstanbul, Türkiye'de Marmara Bölgesi'nin Çatalca-Kocaeli Bölümü'nde yer alan
+                                            şehir ve Türkiye'nin 81 ilinden biridir. Ülkenin nüfus bakımından en çok göç
+                                            alan ve en kalabalık ilidir. Ekonomik, tarihî ve sosyo-kültürel açıdan önde
+                                            gelen şehirlerden biridir.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://127.0.0.1:3000/continents/avrupa/urfa">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/türkiye/şanlıurfa/<%= sehirler[2].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[2].name %>
+                                        </h2>
+                                        <p>Şanlıurfa, halk arasındaki kısa adıyla Urfa veya eski çağlarda bilinen adıyla
+                                            Edessa, Türkiye'nin bir ili ve en kalabalık sekizinci şehridir.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://127.0.0.1:3000/continents/avrupa/izmir">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/türkiye/izmir/<%= sehirler[1].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[1].name %>
+                                        </h2>
+                                        <p>İzmir, Türkiye'de Ege Bölgesi'nde yer alan şehir ve ülkenin 81 ilinden
+                                            biridir. Ülkenin nüfus bakımından en kalabalık üçüncü şehridir. Ekonomik,
+                                            tarihi ve sosyo-kültürel açıdan önde gelen şehirlerden biridir.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://127.0.0.1:3000/continents/avrupa/ankara">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/türkiye/Ankara/<%= sehirler[3].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[3].name %>
+                                        </h2>
+                                        <p>Ankara, Türkiye'nin başkenti ve İstanbul'dan sonra en kalabalık ikinci
+                                            ilidir. Nüfusu 2023 yılı itibarıyla 5.782.285 kişidir. Bu nüfus; 25 ilçe ve
+                                            bu ilçelere bağlı 1425 mahallede yaşamaktadır. İl genelinde nüfus yoğunluğu
+                                            215'tir.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+
+                        </div>
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Almanya</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>Almanya veya resmî ismiyle Almanya Federal Cumhuriyeti , Orta Avrupa'da bulunan bir
+                                ülkedir. Kuzeyinde Kuzey Denizi, Danimarka ve Baltık Denizi, doğusunda Polonya ve Çek
+                                Cumhuriyeti, güneyinde Avusturya ve İsviçre, batısında Fransa, Lüksemburg, Belçika ve
+                                Hollanda bulunur. Ülke, coğrafi olarak ılıman iklim kuşağında yer alır ve yüzölçümü
+                                357.578 km2dir. Topraklarında yaşayan yaklaşık 83 milyon kişilik nüfusu ile Avrupa
+                                Birliği'nin en büyük nüfusuna sahiptir ve bu nüfusun, Birleşmiş Milletler tahminine göre
+                                %14,88 oranında göçmenlerden oluşmasıyla Amerika Birleşik Devletleri'nden sonra,
+                                dünyanın en çok göç alan ikinci ülkesidir.Ülkenin başkenti Berlin, aynı zamanda en
+                                yüksek nüfuslu şehri olup Berlin'i sırasıyla Hamburg, Münih ve Köln takip eder.</p>
+                        </div>
+
+
+                        <div class="menu-card">
+                            <a href="http://127.0.0.1:3000/continents/avrupa/berlin">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/Almanya/berlin/<%= sehirler[7].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[7].name %>
+                                        </h2>
+                                        <p>Berlin, Almanya'nın başkenti ve en büyük şehridir, aynı zamanda bir
+                                            eyalettir.şehirde 2021 itibarıyla 3.655 milyon kişi
+                                            yaşamaktadır.Berlin,Kuzey Almanya'da,Spree ve Havel nehirlerinin arasındaki
+                                            kumluk bölgeye kuruludur.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/munich">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/Almanya/münih/<%= sehirler[4].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[4].name %>
+                                        </h2>
+                                        <p>Münih,Berlin ve Hamburg'dan sonra Almanya'nın en büyük üçüncü kentidir.
+                                            Bavyera eyâletinin en büyük şehri ve başkentidir. Avrupa Birliği'nin
+                                            onikinci en büyük şehridir.. </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/frankfurt">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/Almanya/frankfurt/<%= sehirler[5].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[5].name %>
+                                        </h2>
+                                        <p>Frankfurt am Main, Main nehri kıyısında kurulmuş olan, 730.000'den fazla
+                                            nüfusuyla Almanya'nın beşinci büyük şehridir. </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/hamburg">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/Almanya/Hamburg/<%= sehirler[6].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[6].name %>
+                                        </h2>
+                                        <p>Hamburg, Almanya'nın ikinci büyük şehri olup kendi başına ayrı bir eyâleti
+                                            oluşturur. Aynı zamanda Avrupa Birliği'ndeki en büyük 6. metropoldür.
+                                            Almanya'nın Dünya'ya açılan kapısı da denilen bu şehir, Almanya'nın en büyük
+                                            limanına da sahiptir.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+                        </div>
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">İtalya</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>İtalya ya da resmî olarak İtalyan Cumhuriyeti ya da bazen İtalya Cumhuriyeti, Güney
+                                Avrupa'da, büyük ölçüde İtalya Yarımadası üzerinde yer alan bir ülke.Akdeniz'in en büyük
+                                iki adası Sicilya ve Sardinya da İtalyan topraklarıdır.Yüzölçümü 301.340 km2 olan
+                                ülkenin kuzeyde Alpler bölgesinde Fransa, İsviçre, Avusturya ve Slovenya'yla kara sınırı
+                                vardır.Bağımsız iki Avrupa ülkesi olan Vatikan ve San Marino da İtalya'nın yarımadadaki
+                                toprakları içine sıkışmış anklav (bir başka ülkeyle tümüyle kuşatılmış)
+                                ülkelerdir.İtalya'nın ayrıca biri İsviçre (Campione), diğeriyse Tunus (Lampedusa)
+                                tarafından kara ve deniz sınırlarıyla kuşatılmış iki eksklavı bulunur.Nüfusu yaklaşık 60
+                                milyon olan İtalya, Avrupa Birliği'nin en kalabalık üçüncü ülkesidir. Başkenti ve en
+                                büyük şehri Roma, yüzyıllar boyunca Batı uygarlığının merkezi olmuş, mimaride barok
+                                üslûbunun doğuşuna tanıklık etmiş ve eskiden beri Katolik Kilisesi'nin merkezi olmuştur.
+                            </p>
+                        </div>
+
+
+                        <div class="menu-card">
+                            <a href="http://127.0.0.1:3000/continents/avrupa/roma">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/italya/roma/<%= sehirler[8].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[8].name %>
+                                        </h2>
+                                        <p>Roma veya Roma komünü, İtalya'nın, Lazio bölgesinin ve aynı zamanda Roma
+                                            ilinin başkentidir. Roma hem şehir hem de özel komün statüsü taşır. Tiber ve
+                                            Aniene nehirleri arasında ve Akdeniz'e yakındır.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/milano">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/italya/Milano/<%= sehirler[9].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[9].name %>
+                                        </h2>
+                                        <p>Milano, kuzey İtalya'da bulunan Lombardiya bölgesinde Milano ili'nde bulunan
+                                            bir şehir ve bir komündür.Milano komünu nüfusu 1.372.000 kişi olup
+                                            İtalya'nın ikinci büyük nüfuslu komünüdür.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/pisa">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/italya/pisa/<%= sehirler[10].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[10].name %>
+                                        </h2>
+                                        <p>Pisa,Kuzey İtalya'daki Toskana bölgesinde ayni ismi taşıyan Pisa ilinin
+                                            merkezi olan bir şehirdir.Eğik Pisa Kulesi ve içinde Pisa Katedrali ve
+                                            vaftizhanesi ile birlikte bulunduğu "Piazza del Duomo" bölgesi 1987'den
+                                            itibaren UNESCO Dünya Mirasları listesi'ne alınmıştır.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/venedik">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/italya/venedik/<%= sehirler[11].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[11].name %>
+                                        </h2>
+                                        <p>Venedik, kuzeydoğu İtalya'da birbirinden kanallarla ayrılmış ve köprülerle
+                                            bağlanan 118 adanın üzerine kuruludur. Şehir, kıyı şeridi boyunca uzanan
+                                            Venedik Lagünü'nde, Po ve Piave nehirlerinin deltaları arasına kuruludur.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+                        </div>
+
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">İngiltere</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>İngiltere, Birleşik Krallık'ı meydana getiren dört ülkeden biridir.Batıda Galler ve
+                                kuzeyde İskoçya ile komşudur. Kuzeybatısında İrlanda Denizi, güneybatısında da Kelt
+                                Denizi bulunur. Ülkenin doğusunda, kıta Avrupası ile ayrıldığı yerde Kuzey Denizi;
+                                güneyinde ise Manş Denizi bulunur. Büyük Britanya'ya ait, Kuzey Atlantik Okyanusu'nda
+                                yer alan yaklaşık 100 adet ada İngiltere'ye aittir. Scilly Adaları ve Wight Adası
+                                bunlara dahildir.</p>
+                            <br>
+                            <p>Günümüzde İngiltere olarak adlandırılan bölge, ilk olarak Üst Paleolitik dönemde modern
+                                insanlar tarafından iskân edilmeye başlansa da adını, 5 ve 6. yüzyıllarda bölgeye Anglia
+                                yarımadasından yerleşen Cermen kökenli Angluslardan almıştır. İngiltere, 10. yüzyılda
+                                birleşik bir devlet hâline geldi ve 15. yüzyılda başlayan Keşifler Çağı'ndan bu yana
+                                dünya genelinde geniş bir kültürel ve yasal etkiye sahip olmaya başladı. İngilizce,
+                                Anglikan Kilisesi ve ortak hukuk sisteminin temeli İngiliz hukuku burada ortaya çıktı ve
+                                ülkenin parlamenter hükûmet sistemi diğer uluslar tarafından geniş çapta
+                                benimsendi.Ülkenin toplumunu dünyanın ilk sanayileşmiş ulusuna dönüştüren Sanayi Devrimi
+                                de yine burada gerçekleşti.</p>
+                        </div>
+
+
+                        <div class="menu-card">
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/londra">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/ingiltere/londra/<%= sehirler[12].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[12].name %>
+                                        </h2>
+                                        <p>Londra, İngiltere'nin ve Birleşik Krallık'ın başkenti ve en kalabalık
+                                            şehridir. Büyük Britanya adasının güneydoğusundaki Thames Nehri üzerinde
+                                            duran Londra, iki bin yıldır büyük bir yerleşim yeri olmuştur.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/manchester">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/ingiltere/manchester/<%= sehirler[13].imgurl %>"
+                                            alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[13].name %>
+                                        </h2>
+                                        <p>Manchester, Birleşik Krallık'a bağlı İngiltere ülkesinin Kuzey-Batı
+                                            bölgesinde bulunan bir şehir. Daha geniş bir şehirleşme alanının merkezidir.
+                                            514,417 kişilik nüfusuyla ülkenin en kalabalık altıncı şehri konumundadır.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/liverpool">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/ingiltere/liverpool/<%= sehirler[14].imgurl %>"
+                                            alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[14].name %>
+                                        </h2>
+                                        <p>Liverpool, Birleşik Krallık'ta, İngiltere ülkesinde Mersey Nehri Halici'nin
+                                            doğusunda bulunan şehir yerleşkesidir. Yerel idare bakımdan törensel
+                                            Merseyside Metropoliten Kontluğu'nda bulunan bir tek-seviyeli metropoliten
+                                            yerel bölge olan Liverpool Şehri yerel idaresi altındadır.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/Birmingham">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/ingiltere/Birmingham/<%= sehirler[15].imgurl %>"
+                                            alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[15].name %>
+                                        </h2>
+                                        <p>Birmingham, Birleşik Krallık içinde; İngiltere'nin West Midlands bölgesinde
+                                            "metropolitan borough" statülü bir büyükşehirdir.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+                        </div>
+
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Fransa</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>Fransa ya da resmî adıyla Fransa Cumhuriyeti veya Fransız Cumhuriyeti, ana kara
+                                toprakları Batı Avrupa'da bulunan ve dünyanın pek çok bölgesinde denizaşırı toprakları
+                                olan bir ülkedir.</p>
+                            <br>
+                            <p>Kıta Fransa'sı, güneyde Akdeniz'den kuzeyde Manş Denizi ve Kuzey Denizi'ne, doğuda Ren
+                                Nehri'nden batıda Atlas Okyanusu'na kadar yayılan topraklarda yer alır. Fransızlar,
+                                ülkelerini topraklarının biçiminden ötürü Altıgen olarak adlandırırlar.</p>
+                            <br>
+                            <p>Fransa, yönetimde yarı başkanlık sisteminin uygulandığı üniter bir devlettir. Ülkenin
+                                başlıca ilke ve ülküleri İnsan ve Yurttaş Hakları Bildirisi'nde açıklanmıştır.</p>
+                        </div>
+
+
+                        <div class="menu-card">
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/paris">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/France/paris/<%= sehirler[16].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[16].name %>
+                                        </h2>
+                                        <p>Paris, Fransa'nın başkenti ve 105 kilometrekare'den fazla alanda 2,175,601
+                                            nüfusu ile en kalabalık şehridir. 17. yüzyıldan beri Paris Avrupa'nın en
+                                            önemli finans, diplomasi, ticaret, moda, gastronomi, bilim ve sanat
+                                            merkezlerindendir.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/marsilya">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/France/marsilya/<%= sehirler[17].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[17].name %>
+                                        </h2>
+                                        <p>Marsilya, Fransa'nın güneydoğu'sunda bulunan, Bouches-du-Rhône ilinin ve
+                                            Provence-Alpes-Côte d'Azur bölgesinin merkez şehridir. Ayrıca 1.760.653
+                                            nüfusuyla Fransa'nın 2. en büyük metropolitan yerleşim alanıdır.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/bordeaux">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/France/bordeaux/<%= sehirler[18].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[18].name %>
+                                        </h2>
+                                        <p>Bordeaux, Fransa'nın güneybatısında Akitanya Nouvelle-Aquitaine bölgesinin
+                                            Gironde departmanında yer alan şehir. 2008 itibarıyla belediye sınırları
+                                            içinde nüfusu 250.082'dir.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="http://127.0.0.1:3000/continents/avrupa/nice">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/avrupa/France/nice/<%= sehirler[19].imgurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[19].name %>
+                                        </h2>
+                                        <p>Nice, Güney Fransa'da, Akdeniz sahilinde, Marsilya ile Cenova arasında yer
+                                            alan bir şehirdir. Ülkenin en önemli turizm merkezlerinden biridir. Nüfusu
+                                            347.100'dür. 71.92 km²'lik bir alana yayılmıştır. Fransa'nın beşinci büyük
+                                            şehridir.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="space-around-main"></div>
+
+
+
+                    </div>
+
+
+                    <div class="main-ekstra">
+                        <div class="menu-card-ekstra-template">
+                            <div class="menu-card-ekstra-template-img">
+                                <img src="/resimler/avrupa/Europe.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="main-ekstra-header">
+                            <p>Avrupa</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <table class="main-ekstra-tables">
+                                <tr>
+                                    <td class="main-ekstra-tables-td-left">Alan</td>
+                                    <td class="main-ekstra-tables-td-right">10.180,000 km²</td>
+                                </tr>
+                                <tr>
+                                    <td class="main-ekstra-tables-td-left">Nüfus</td>
+                                    <td class="main-ekstra-tables-td-right">745,173,774 (2021)</td>
+                                </tr>
+                                <tr>
+                                    <td class="main-ekstra-tables-td-left">Halklar</td>
+                                    <td class="main-ekstra-tables-td-right">
+                                        <ul class="main-ekstra-tables-ul">
+                                            <li>İngiliz</li>
+                                            <li>Türk</li>
+                                            <li>Alman</li>
+                                            <li>Fransız</li>
+                                            <li>İtalyan</li>
+                                            <li>ispanyol</li>
+                                            <li>Yunan</li>
+                                            <li>İskandinav</li>
+                                            <li>Kafkasya Halkları</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+            </main>
+
+
+
+            <section class="section-container">
+                <p class="section-paragraf"><a href="http://127.0.0.1:3000/continents/avrupa/urfa/gobeklitepe"
+                        class="section-links">Göbekli tepe</a></p>
+                <p class="section-paragraf"><a href="http://127.0.0.1:3000/continents/avrupa/istanbul/ayasofya"
+                        class="section-links">ayasofya</a></p>
+                <p class="section-paragraf"><a href="http://127.0.0.1:3000/continents/avrupa/almanya"
+                        class="section-links">Almanya</a></p>
+            </section>
+
+
+
+            <!--footer-->
+            <footer>
+                <div class="footer-container">
+                    <div class="social-icon">
+                        <a title="Facebook" href="https://www.facebook.com/emin.aldas.37/" class="footer-social-link"
+                            target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a title="Instagram" href="https://www.instagram.com/emin.alds/" class="footer-social-link"
+                            target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a title="Twitter" href="https://twitter.com/AldsEmin" class="footer-social-link"
+                            target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a title="Youtube" href="https://www.youtube.com/channel/UCk1xreJb2dm-wes0-APkxKA"
+                            class="footer-social-link" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a title="Github" href="https://github.com/eminaldas" class="footer-social-link"
+                            target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a title="Discord" href="discordapp.com/users/Muhammed Emin Aldaş#3369"
+                            class="footer-social-link" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <div class="footer-navbar">
+                        <ul class="footer-navbar-ul">
+                            <li class="footer-navbar-li"><a href="http://127.0.0.1:3000" class="footer-navbar-a"
+                                    title="Home">Home</a></li>
+                            <li class="footer-navbar-li"><a href="http://127.0.0.1:3000/aboutUs"
+                                    class="footer-navbar-a">About us</a></li>
+                            <li class="footer-navbar-li"><a href="http://127.0.0.1:3000/others"
+                                    class="footer-navbar-a">Others</a></li>
+                        </ul>
+                    </div>
+                    <div class="fotter-text">
+                        <p>Copyright &copy;2023; Designed By <span class="footer-desinger">Muhammed Emin Aldas</span>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/slider.js"></script>
+</body>
+
+</html>

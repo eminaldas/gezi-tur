@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldasland | Afrika</title>
+    <link rel="icon" type="image/x-icon" href="/resimler/Yeni klasör/avianex.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/Afrika.css">
+    
+</head>
+
+<body>
+    <div id="progress">
+        <span id="progress-value"><i class="fa-solid fa-chevron-up"></i></span>
+    </div>
+    <div class="body">
+        <div class="container">
+            <header class="nav">
+                <div class="navbar">
+                    <div class="navbar-logo"><a href="http://127.0.0.1:3000" class="logo-menu"><i
+                                class="fa-brands fa-avianex fa-2xl" title="AldasLand"></i></a></div>
+                    <div class="navbar-menu">
+                        <ul class="navigation">
+                            <li class="nav-text"><a href="http://127.0.0.1:3000" class="menu-item">Anasayfa</a></li>
+    
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">Ülkeler</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="drop">
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/avrupa"
+                                            class="dropdown-text">Avrupa</a></li>
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/asya"
+                                            class="dropdown-text">Asya</a></li>
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/afrika"
+                                            class="dropdown-text">Afrika</a></li>
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/amerika"
+                                            class="dropdown-text">Amerika</a></li>
+    
+                                </ul>
+                            </div>
+    
+                            <li class="nav-text"><a href="http://127.0.0.1:3000/continents" class="menu-item">Kıtalar</a></li>
+                            <li class="nav-text"><a href="http://127.0.0.1:3000/GeziTurSign"
+                                class="menu-item">Kayıt ol</a></li>
+
+    
+                        </ul>
+    
+                    </div>
+                    <div class="navbar-login">
+                        <a href="http://127.0.0.1:3000/GeziturLog" blank="_leave" class="login"><i class="fa-solid fa-user-tie fa-2xl"
+                                title="Log-in"></i></a>
+    
+                    </div>
+                </div>
+                <img src="/adobe/header5.png" alt="">
+            </header>
+            <!--main kısmı-->
+
+
+            <main class="main">
+
+
+
+                <div class="main-container">
+
+                    <div class="main-search">
+
+                        <form action="https://www.google.com/search" method="get" class="search-form">
+                            <div class="google-search">
+                                <script async src="https://cse.google.com/cse.js?cx=51e502db8d6ef437e">
+                                </script>
+                                <div class="gcse-searchbox-only"></div>
+                            </div>
+                        </form>
+
+
+                    </div>
+                    <div class="main-menu">
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Mısır</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>Mısır veya resmî adıyla Mısır Arap Cumhuriyeti,Afrika ile Asya kıtalarının kesişiminde
+                                yer alan bir ülkedir. Kuzey Afrika'nın nüfusu en büyük olan ülkesidir. Nüfusunun büyük
+                                bölümü Nil Nehri boyunca
+                                yerleşmiştir. Akdeniz ve Kızıldeniz'e kıyısı bulunan Mısır'ın, batısında Libya,
+                                güneyinde ise Sudan yer almaktadır. Ülkenin Asya kıtasında yer alan kısmı, Sina
+                                Yarımadası üzerinden Filistin ve İsrail ile komşudur. Mısır'dan geçen Nil Nehri,
+                                sularını Akdeniz'e boşaltmaktadır. Medeniyetin beşiği olarak bilinen, Orta Doğu'da
+                                bulunan bir ülkedir.</p>
+                            <br>
+                            <p>
+                                lke, 1.010.000 km² kapsayan toprak parçasına ve 2022 yılı verilerine göre yaklaşık 104
+                                milyon nüfusa sahiptir. Bu yönüyle Mısır, Dünya'nın en kalabalık 14. ve Afrika'nın
+                                da en kalabalık 3. ülkesidir. Ülkenin başkenti, aynı zamanda en kalabalık şehri olan
+                                Kahire'dir. Resmî dili Arapça, resmî dini ise İslâm'dır.
+                            </p>
+                        </div>
+
+
+                        <div class="menu-card">
+                            <a href="4.Pekin.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[0].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[0].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[0].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="4.Vuhan.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[1].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[1].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[1].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="4.Şanghay.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[2].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[2].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[2].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="4.Hong Kong.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[3].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[3].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[3].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+
+                        </div>
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Fas</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>Fas veya resmî olarak Fas
+                                Krallığı, yaklaşık 37 milyon nüfusa ve 720.000 km² yüzölçümüne sahip
+                                bir Kuzey Afrika ülkesidir. Başkenti Rabat ve en büyük şehri de Kazablanka'dır. Mağrip
+                                ülkelerinden biri olan Fas'ın, Atlantik Okyanusu'dan Cebelitarık Boğazı'nı çevreleyip
+                                Akdeniz'de son bulan uzun bir sahil şeridi vardır. Doğuda Cezayir, kuzeyde İspanya
+                                (boğaz boyunca denizden bir sınır ve Ceuta ile Melilla adlarında iki küçük özerk şehir),
+                                güneyde ise Moritanya ile komşudur. Aynı zamanda ülke, Batı Sahra adı verilen bölgede,
+                                1975'te koloni ülkesi İspanya tarafından terk edildikten sonra hak iddia etmiş ve
+                                günümüzde de bölgenin üçte ikisini fiilen yönetmektedir.</p>
+                            <br>
+                            <p>
+                                Resmi ve baskın dini İslam olan ülkenin resmi dilleri ise Arapça ve Berberice'dir. Fas;
+                                Afrika Birliği'nin, Arap Ligi'nin, Büyük Mağrip Birliği'nin, Frankofon'nun, İslam
+                                Konferansı Örgütü'nün, Akdeniz Diyaloğu grubunun ve G77'nin üyesidir.
+                            </p>
+                        </div>
+
+
+                        <div class="menu-card">
+                            <a href="4.Tokyo.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[4].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[4].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[4].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Osaka.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[5].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[5].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[5].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Kyoto.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[6].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[6].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[6].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Yokohama.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[7].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[7].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[7].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+                        </div>
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Nijerya</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>Nijerya ya da resmî adı ile Nijerya Federal Cumhuriyeti, Afrika kıtasının batısında yer
+                                alan ülkedir. Ülkenin sınır komşularını (kuzeyden saat yönünde ilerlendiğinde) Nijer,
+                                Çad, Kamerun ve Benin oluştururken, ülkenin güneyinde Gine Körfezi içerisinde yer alan
+                                Benin Körfezi yer almaktadır. Ülkenin başkenti Abuja'dır.
+                            </p>
+
+                        </div>
+
+
+                        <div class="menu-card">
+                            <a href="4.Delhi.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[8].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[8].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[8].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href=".Agra.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[9].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[9].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[9].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href=".Mumbai.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[10].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[10].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[10].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Bengaluru.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[11].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[11].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[11].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+                        </div>
+
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Güney Afrika</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>
+                                Güney Afrika Cumhuriyeti ya da daha yaygın kullanımı ile Güney Afrika, Afrika kıtasının
+                                güneyinde yer alan bir ülkedir. Ülkenin sınır komşularını (kuzeyden saat yönünde
+                                ilerlendiğinde) Namibya, Botsvana, Zimbabve, Mozambik ve Esvatini oluştururken ülkenin
+                                güneydoğusunda Hint Okyanusu, güney ve güneybatısında Atlas Okyanusu bulunmaktadır. Bu
+                                ülkelerin haricinde Lesotho'da da tamamen Güney Afrika Cumhuriyeti toprakları içinde yer
+                                alan bir ülke olarak Güney Afrika ile tüm sınırlarını paylaşmaktadır. Güney Afrika'da
+                                yürütme başkenti Pretoria, yasama başkenti Cape Town, yargı başkenti Bloemfontein
+                                olmak üzere üç başkent bulunmaktadır.
+                            </p>
+                            <br>
+
+                        </div>
+
+
+                        <div class="menu-card">
+
+                            <a href="4.Mekke.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[12].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[12].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[12].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Medine.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[13].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[13].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[13].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Cidde.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[14].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[14].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[14].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Riyad.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[15].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[15].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[15].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+                        </div>
+
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Etiyopya</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+
+                            <p>
+                                Etiyopya veya Etyopya, resmî adıyla Etiyopya Federal Demokratik Cumhuriyeti Afrika
+                                Boynuzu'nda yer alan büyük bir Doğu
+                                Afrika ülkesi. Ülkenin başkenti yerel dilde "yeni çiçek" anlamına gelen Addis Ababa'dır.
+                                Sudan, Güney Sudan, Eritre, Cibuti, Somali ve Kenya, Etiyopya'nın komşularıdır. Afrika
+                                kıtasının en kalabalık ikinci ülkesidir.
+                            </p>
+                            <br>
+                            <p>Etiyopya, Avrupalı sömürge güçlerini yenen ve bağımsız bir ülke olarak egemenliğini
+                                koruyabilen iki Afrika ülkesinden biridir (diğeri Liberya). 1945 yılında Birleşmiş
+                                Milletler'e üye olarak ilk bağımsız Afrika ülkesi olmuştur. Ülkenin Kızıldeniz boyunca
+                                uzanan sahil bölgesinin, 1993'te yapılan bir halk oylaması sonucunda Eritre adıyla
+                                bağımsızlığını ilan etmesi, Etiyopya'nın Kızıldeniz ile olan bağlantısının kesilmesine
+                                ve ülkenin bir kara devletine dönüşmesine neden olmuştur.</p>
+                        </div>
+
+
+                        <div class="menu-card">
+
+                            <a href="4.Cakarta.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[16].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[16].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[16].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Surabaya.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[17].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[17].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[17].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Bekasi.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[18].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[18].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[18].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Bandung.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/AFRİCA/genel/<%= sehirler[19].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[19].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[19].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                    <div class="main-ekstra">
+                        <div class="menu-card-ekstra-template">
+                            <div class="menu-card-ekstra-template-img">
+                                <img src="/resimler/AFRİCA/Africa.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="main-ekstra-header">
+                            <p>Afrika</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <table class="main-ekstra-tables">
+                                <tr>
+                                    <td class="main-ekstra-tables-td-left">Alan</td>
+                                    <td class="main-ekstra-tables-td-right">30.370.000 km²</td>
+                                </tr>
+                                <tr>
+                                    <td class="main-ekstra-tables-td-left">Nüfus</td>
+                                    <td class="main-ekstra-tables-td-right">1.275.920.972</td>
+                                </tr>
+                                <tr>
+                                    <td class="main-ekstra-tables-td-left">Halklar</td>
+                                    <td class="main-ekstra-tables-td-right">
+                                        <ul class="main-ekstra-tables-ul">
+                                            <li>Mısırlılar</li>
+                                            <li>Libyalılar</li>
+                                            <li>Nijeryalılar</li>
+                                            <li>Somaliler</li>
+                                            <li>Sudanlılar</li>
+                                            <li>Güney Afrikalılar</li>
+                                            <li>Kamerunlular</li>
+                                            <li>Senegalliler</li>
+                                            <li>Tunuslular</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                        <hr>
+                    </div>
+
+
+
+
+
+
+
+
+            </main>
+
+
+
+            <section class="section-container">
+                <p class="section-paragraf"><a href="#" class="section-links">Göbekli tepe</a></p>
+                <p class="section-paragraf"><a href="#" class="section-links">İstanbul'da gezilebilecek popüler
+                        mekanlar</a></p>
+                <p class="section-paragraf"><a href="#" class="section-links">Almanya</a></p>
+            </section>
+
+
+
+            <!--footer-->
+            <footer>
+                <div  class="footer-container">
+                    <div class="social-icon">
+                        <a title="Facebook"  href="https://www.facebook.com/emin.aldas.37/" class="footer-social-link" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a title="Instagram" href="https://www.instagram.com/emin.alds/" class="footer-social-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a title="Twitter" href="https://twitter.com/AldsEmin" class="footer-social-link" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a title="Youtube" href="https://www.youtube.com/channel/UCk1xreJb2dm-wes0-APkxKA" class="footer-social-link" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a title="Github" href="https://github.com/eminaldas" class="footer-social-link" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a title="Discord" href="discordapp.com/users/Muhammed Emin Aldaş#3369" class="footer-social-link" target="_blank"><i class="fa-brands fa-discord"></i></a>                      
+                    </div>
+                    <div class="footer-navbar">
+                       <ul class="footer-navbar-ul">
+                            <li class="footer-navbar-li"><a href="http://127.0.0.1:3000" class="footer-navbar-a" title="Home">Home</a></li>
+                            <li class="footer-navbar-li"><a href="http://127.0.0.1:3000/aboutUs" class="footer-navbar-a">About us</a></li>
+                            <li class="footer-navbar-li"><a href="http://127.0.0.1:3000/others" class="footer-navbar-a">Others</a></li>             
+                        </ul>
+                    </div>
+                    <div class="fotter-text">
+                        <p>Copyright &copy;2023; Designed By <span class="footer-desinger">Muhammed Emin Aldas</span></p>
+                    </div>
+             </div>
+            </footer>
+        </div>
+    </div>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/slider.js"></script>
+</body>
+
+</html>

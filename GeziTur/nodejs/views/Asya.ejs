@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldasland | Asya</title>
+    <link rel="icon" type="image/x-icon" href="/resimler/Yeni klasör/avianex.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/2.Asya.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+</head>
+
+<body>
+    <div id="progress">
+        <span id="progress-value"><i class="fa-solid fa-chevron-up"></i></span>
+    </div>
+    <div class="body">
+        <div class="container">
+            <header class="nav">
+                <div class="navbar">
+                    <div class="navbar-logo"><a href="http://127.0.0.1:3000" class="logo-menu"><i
+                                class="fa-brands fa-avianex fa-2xl" title="AldasLand"></i></a></div>
+                    <div class="navbar-menu">
+                        <ul class="navigation">
+                            <li class="nav-text"><a href="http://127.0.0.1:3000" class="menu-item">Anasayfa</a></li>
+
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">Ülkeler</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="drop">
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/avrupa"
+                                            class="dropdown-text">Avrupa</a></li>
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/asya"
+                                            class="dropdown-text">Asya</a></li>
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/afrika"
+                                            class="dropdown-text">Afrika</a></li>
+                                    <li class="drop-li"><a href="http://127.0.0.1:3000/continents/amerika"
+                                            class="dropdown-text">Amerika</a></li>
+
+                                </ul>
+                            </div>
+
+                            <li class="nav-text"><a href="http://127.0.0.1:3000/continents"
+                                    class="menu-item">Kıtalar</a></li>
+                                    <li class="nav-text"><a href="http://127.0.0.1:3000/GeziTurSign"
+                                        class="menu-item">Kayıt ol</a></li>
+
+
+                        </ul>
+
+                    </div>
+                    <div class="navbar-login">
+                        <a href="http://127.0.0.1:3000/GeziturLog" blank="_leave" class="login"><i
+                                class="fa-solid fa-user-tie fa-2xl" title="Log-in"></i></a>
+
+                    </div>
+                </div>
+                <img src="/adobe/header4.png" alt="">
+            </header>
+            <!--main kısmı-->
+
+            <main class="main">
+
+
+
+                <div class="main-container">
+
+                    <div class="main-search">
+
+                        <form action="https://www.google.com/search" method="get" class="search-form">
+                            <div class="google-search">
+                                <script async src="https://cse.google.com/cse.js?cx=51e502db8d6ef437e">
+                                </script>
+                                <div class="gcse-searchbox-only"></div>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                    <div class="main-menu">
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Çin</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>Çin; Kuzey Çin Ovası'ndaki verimli Sarı Irmak havzasında Dünya'nın ilk uygarlıklarından
+                                biri olarak ortaya çıktı. Çin'deki siyasi sistem, binlerce sene boyunca ilki yarı
+                                efsanevî Şia Hanedanı olan ırsî monarşiler veya hanedanlıklara dayalıydı. İlk
+                                hanedanlıklardan beri Çin defalarca genişledi, bölündü ve tekrar birleşti. 1912'de Çin
+                                Cumhuriyeti (ÇC), son hanedan olan Çing Hanedanı'nı devirerek Çin'in yönetimini üstlendi
+                                ve 1949'da Çin İç Savaşı'nda Halk Kurtuluş Ordusu tarafından yenilene dek Çin
+                                anakarasını yönetti. 21 Eylül 1949'da Komünist Parti, Pekin'de Çin Halk Cumhuriyeti'ni
+                                kurdu; ÇC hükûmetiyse Tayvan'a çekilip Taipei'yi de facto başkent yaptı. Hem ÇC hem de
+                                ÇHC, tüm Çin'in tek meşru hükûmeti olduğunu savunmaktadır ancak ÇHC dünya çapında daha
+                                çok tanınmakta olup çok daha fazla toprak ve insana egemendir.</p>
+                        </div>
+
+
+                        <div class="menu-card">
+                            <a href="4.Pekin.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/çin/pekin/<%= sehirler[0].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[0].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[0].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="4.Vuhan.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/çin/Vuhan/<%= sehirler[1].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[1].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[1].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="4.Şanghay.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/çin/Şanghay/<%= sehirler[2].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[2].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[2].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="4.Hong Kong.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/çin/Hong Kong/<%= sehirler[3].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[3].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[3].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+
+                        </div>
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Japonya</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>Japonca adını oluşturan kanji karakterler "güneş" ve "köken" anlamına gelir. Bu nedenle
+                                Japonya "Doğan Güneşin Ülkesi" diye de bilinir. Japonya coğrafî yapısı bakımından 6.852
+                                adadan oluşan bir takımadadır. Bu adaların en büyükleri olan Honshu, Hokkaido, Kyushu
+                                ve Shikoku adaları ülkenin %97'sini oluşturur ve genellikle ev adaları olarak anılır.
+                                Ülke sekiz bölgede 47 prefektörlüklere ayrılmıştır; Hokkaido en kuzey eyaleti ve Okinawa
+                                ise en güney eyaletidir. Japonya, Endonezya'dan sonra 2. en kalabalık ada ülkesidir.
+                                Adaların çoğu dağlıktır ve bazıları yanardağlardan oluşur. Japonya'nın en yüksek dağı
+                                olan Fuji Dağı bir yanardağdır. Japonya yüzde 98,5'i Japon olan 126 milyonluk
+                                nüfusuyla dünyanın nüfus açısından on birinci en kalabalık ülkesidir. Honshu'da bulunan
+                                Büyük Tokyo Metropolü, fiili başkent Tokyo ve bulunduğu alan çevresinde bulunan
+                                prefektörlükler ve şehirlerle birlikte 30 milyonunun üzerindeki nüfusuyla dünyanın en
+                                büyük metropoliten alanıdır.</p>
+                        </div>
+
+
+                        <div class="menu-card">
+                            <a href="4.Tokyo.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/japonya/tokyo/<%= sehirler[4].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[4].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[4].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Osaka.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/japonya/Osaka/<%= sehirler[5].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[5].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[5].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Kyoto.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/japonya/Kyoto/<%= sehirler[6].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[6].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[6].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Yokohama.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/japonya/Yokohama/<%= sehirler[7].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[7].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[7].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+                        </div>
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Hindistan</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>Güneyinde Hint Okyanusu, batısında Umman Denizi ve doğusunda Bengal Körfezi'nin
+                                bulunmasıyla birlikte Hindistan'ın deniz kıyısı 7.517 kilometre uzunluktadır. Batısında
+                                Pakistan, kuzeydoğusunda Çin, Nepal ve Bhutan ve doğusunda Bangladeş ve Myanmar ülkeleri
+                                ile sınır paylaşmaktadır. Ayrıca Sri Lanka, Maldivler ve Endonezya'ya çok yakındır.
+                            </p>
+
+                            <p>İndus Vadisi Uygarlığı, geçmişte ticaret yolları ve büyük imparatorlukların yer aldığı
+                                bölge olan Hint Yarımadası, uzun tarihin çoğu boyunca ticari ve kültürel zenginliği için
+                                biliniyordu. Hindistan, dünyanın en önemli dinlerinden olan Hinduizm, Budizm, Jainizm ve
+                                Sihizmin doğum yeridir. Ayrıca, Zerdüştlük, Yahudilik, Hristiyanlık dinleri M.S. birinci
+                                yüzyıldan itibaren ülkeye gelerek bölgenin çeşitli kültürünü şekillendirdi.
+                            </p>
+                        </div>
+
+
+                        <div class="menu-card">
+                            <a href="4.Delhi.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/Hindistan/Delhi/<%= sehirler[8].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[8].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[8].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href=".Agra.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/Hindistan/agra/<%= sehirler[9].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[9].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[9].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href=".Mumbai.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/Hindistan/Mumbai/<%= sehirler[10].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[10].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[10].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Bengaluru.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/Hindistan/Bengaluru/<%= sehirler[11].imageurl %>"
+                                            alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[11].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[11].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+                        </div>
+
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Suudi Arabistan</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>
+                                Arap Yarımadası'nda bulunan en büyük ülkedir. Kuzeybatı'da Ürdün, kuzey ve
+                                kuzeydoğu'da Irak, doğuda Kuveyt, Katar, Bahreyn ve Birleşik Arap Emirlikleri,
+                                güneydoğuda Umman, güneyde Yemen, kuzeydoğusunda Basra Körfezi ve batısında Kızıldeniz
+                                ile çevrilidir. Buraya iki kutsal caminin arazisi de denir; çünkü İslam'a göre iki
+                                kutsal şehir olan Mekke ve Medine bu ülkededir. Suudi Arabistan, Orta Doğu'daki bütün
+                                körfez ülkelerinde olduğu gibi hızla gelişmektedir.
+                            </p>
+                            <br>
+                            <p>
+                                Günümüz modern Arabistan sınırlarını kapsayan İslam öncesi Arabistan toprakları çeşitli
+                                antik kültür ve medeniyetlere ev sahipliği yapmaktaydı; Arabistan'ın tarih öncesi dönemi
+                                dünyadaki insan aktivitesinin en eski örneklerinden bazılarını sunmaktadır. Dünyanın en
+                                yaygın ikinci dini olan İslamiyet Arabistan'da doğmuştur. İslam peygamberi Muhammed, 7.
+                                yüzyılda Arabistan halkını birleştirdi ve Arabistan'ı tek bir İslam devleti haline
+                                getirdi. Muhammed'in 632 yılında vefatının ardından takipçileri çok büyük ve benzeri
+                                görülmemiş toprakları (Batı'da İber Yarımadası'ndan doğuda Orta Asya ve Güney Asya'nın
+                                bir bölümünü) on yıllar içinde hızla ele geçirerek İslam devletinin sınırlarını
+                                Arabistan'ın ötesine ulaştırdı. Günümüz Suudi Arabistan'ından gelen Arap hanedanları,
+                                Raşidun (632-661), Emevi (661-750), Abbasi (750-1517) ve Fatımi (909-1171)
+                                halifeliklerini ve ayrıca Asya, Afrika ve Avrupa'daki sayısız diğer hanedanları kurdu.
+                            </p>
+                        </div>
+
+
+                        <div class="menu-card">
+
+                            <a href="4.Mekke.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/Suudi Arabistan/Mekke/<%= sehirler[12].imageurl %>"
+                                            alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[12].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[12].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Medine.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/Suudi Arabistan/Medine/<%= sehirler[13].imageurl %>"
+                                            alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[13].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[13].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Cidde.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/Suudi Arabistan/Cİdde/<%= sehirler[14].imageurl %>"
+                                            alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[14].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[14].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Riyad.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/Suudi Arabistan/Riyadh/<%= sehirler[15].imageurl %>"
+                                            alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[15].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[15].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+                        </div>
+
+                        <div class="main-menu-header-div">
+                            <h1 class="main-menu-header-content">Endonezya</h1>
+                        </div>
+                        <div class="main-menu-card-paragraf-div">
+                            <p>Endonezya, resmî adıyla Endonezya Cumhuriyeti (Endonezyaca: Indonesia, Endonezyaca:
+                                Republik Indonesia), Hint ve Pasifik okyanusları arasında, Güneydoğu Asya ve
+                                Okyanusya'da toprakları bulunan bir ülkedir. 17 binden fazla adadan oluşur. Bu adaların
+                                en büyükleri Sumatra, Cava ve Sulavesi ile kısmen Borneo ve Yeni Gine'dir. Endonezya
+                                dünyanın en büyük ada ülkesidir, 1.904.569 km²'lik yüzölçümüyle dünyada 14. sıradadır.
+                                270 milyon civarında nüfusuyla dünyanın en kalabalık dördüncü ülkesi ve aynı zamanda en
+                                kalabalık Müslüman ülkesidir. Cava dünyanın en kalabalık adasıdır ve nüfusun yarıdan
+                                fazlasına ev sahipliği yapar.</p>
+                            <br>
+                            <p>Endonezya başkanlık sistemi ile yönetilen bir demokrasidir. Ülke beşi özel statülü olmak
+                                üzere 34 ile ayrılmıştır. Ülkenin başkenti Cakarta, dünyanın en kalabalık ikinci
+                                metropolüdür. Kara komşuları; Papua Yeni Gine, Doğu Timor ve Malezya'dır. Singapur,
+                                Filipinler, Avustralya ve Hindistan'a bağlı Andaman ve Nikobar Adaları ile deniz sınırı
+                                bulunur. Yüksek nüfusuna rağmen Endonezya, geniş yaban alanlarına sahiptir ve en yüksek
+                                seviyede biyoçeşitliliğe sahip ülkelerden biridir.</p>
+                            <br>
+                           
+                        </div>
+
+
+                        <div class="menu-card">
+
+                            <a href="4.Cakarta.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/endonezya/cakarta/<%= sehirler[16].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[16].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[16].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Surabaya.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/endonezya/surabaya/<%= sehirler[17].imageurl %>"
+                                            alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[17].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[17].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Bekasi.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/endonezya/bekasi/<%= sehirler[18].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[18].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[18].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="4.Bandung.html">
+                                <div class="menu-card-template">
+                                    <div class="menu-card-template-img">
+                                        <img src="/resimler/ASYA/endonezya/bandung/<%= sehirler[19].imageurl %>" alt="">
+                                    </div>
+                                    <div class="menu-card-template-content">
+                                        <h2>
+                                            <%= sehirler[19].name %>
+                                        </h2>
+                                        <p>
+                                            <%= sehirler[19].bilgi %>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                    <div class="main-ekstra">
+                        <div class="menu-card-ekstra-template">
+                            <div class="menu-card-ekstra-template-img">
+                                <img src="/resimler/ASYA/Asia.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="main-ekstra-header">
+                            <p>Asya</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <table class="main-ekstra-tables">
+                                <tr>
+                                    <td class="main-ekstra-tables-td-left">Alan</td>
+                                    <td class="main-ekstra-tables-td-right">44.579.000 km²</td>
+                                </tr>
+                                <tr>
+                                    <td class="main-ekstra-tables-td-left">Nüfus</td>
+                                    <td class="main-ekstra-tables-td-right">3.879.000.000</td>
+                                </tr>
+                                <tr>
+                                    <td class="main-ekstra-tables-td-left">Halklar</td>
+                                    <td class="main-ekstra-tables-td-right"><ul class="main-ekstra-tables-ul">
+                                        <li>Hintler</li>
+                                        <li>Türk Halkları</li>
+                                        <li>Çinliler</li>
+                                        <li>Ermeniler</li>
+                                        <li>Ruslar</li>
+                                        <li>İran Halkları</li>
+                                        <li>Gürcüler</li>
+                                        <li>Moğollar</li>
+                                        <li>Araplar</li>
+
+                                    </ul></td>
+                                </tr>
+                                
+                            </table>
+                        </div>
+                        <hr>
+                </div>
+
+
+
+
+
+
+
+
+            </main>
+
+
+
+            
+            <section class="section-container">
+                <p class="section-paragraf"><a href="#" class="section-links">Göbekli tepe</a></p>
+                <p class="section-paragraf"><a href="#" class="section-links">İstanbul'da gezilebilecek popüler
+                        mekanlar</a></p>
+                <p class="section-paragraf"><a href="#" class="section-links">Almanya</a></p>
+            </section>
+
+
+
+
+
+            <!--footer-->
+            <footer>
+                <div  class="footer-container">
+                    <div class="social-icon">
+                        <a title="Facebook"  href="https://www.facebook.com/emin.aldas.37/" class="footer-social-link" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a title="Instagram" href="https://www.instagram.com/emin.alds/" class="footer-social-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a title="Twitter" href="https://twitter.com/AldsEmin" class="footer-social-link" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a title="Youtube" href="https://www.youtube.com/channel/UCk1xreJb2dm-wes0-APkxKA" class="footer-social-link" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a title="Github" href="https://github.com/eminaldas" class="footer-social-link" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a title="Discord" href="discordapp.com/users/Muhammed Emin Aldaş#3369" class="footer-social-link" target="_blank"><i class="fa-brands fa-discord"></i></a>                      
+                    </div>
+                    <div class="footer-navbar">
+                       <ul class="footer-navbar-ul">
+                            <li class="footer-navbar-li"><a href="http://127.0.0.1:3000" class="footer-navbar-a" title="Home">Home</a></li>
+                            <li class="footer-navbar-li"><a href="http://127.0.0.1:3000/aboutUs" class="footer-navbar-a">About us</a></li>
+                            <li class="footer-navbar-li"><a href="http://127.0.0.1:3000/others" class="footer-navbar-a">Others</a></li>             
+                        </ul>
+                    </div>
+                    <div class="fotter-text">
+                        <p>Copyright &copy;2023; Designed By <span class="footer-desinger">Muhammed Emin Aldas</span></p>
+                    </div>
+             </div>
+            </footer>
+        </div>
+    </div>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/slider.js"></script>
+</body>
+
+</html>
